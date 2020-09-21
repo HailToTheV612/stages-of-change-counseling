@@ -1,0 +1,30 @@
+
+/*ul {
+    list-style: none;
+}
+li.services-items{
+    display: inline;
+    font-size: 16px;
+    padding: 0 10px;
+}
+.services-items:before {
+    content: '\2022';
+    font-size: 30px;
+    vertical-align: middle;
+}
+*/
+
+.s-link{
+    display: inline;
+    font-size: 2rem;
+}
+
+.s-link .s-span {
+    font-size: 16px;
+}
+
+#services-list .s-link:before{
+    content: "\2022";
+    vertical-align: middle;
+    padding: 0 10px 0 15px;
+}
