@@ -1,22 +1,15 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Cormorant', serif; 
+}
 
-/*ul {
-    list-style: none;
-}
-li.services-items{
-    display: inline;
-    font-size: 16px;
-    padding: 0 10px;
-}
-.services-items:before {
-    content: '\2022';
-    font-size: 30px;
-    vertical-align: middle;
-}
-*/
-
+/*Bullet points*/
 .s-link{
-    display: inline;
-    font-size: 2rem;
+    /*display: inline;*/
+    list-style-type: none;
+    font-size: 2.2rem;
 }
 
 .s-link .s-span {
@@ -26,5 +19,5 @@ li.services-items{
 #services-list .s-link:before{
     content: "\2022";
     vertical-align: middle;
-    padding: 0 10px 0 15px;
+    padding-right: 5px;
 }
