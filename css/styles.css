@@ -82,3 +82,26 @@ section {
 #phone:hover, #mailto:hover {
     color: rgba(177, 155, 217, 0.6);
 }
+
+footer{
+    background-color: #B19BD9;
+    padding: 10px;
+}
+
+p#footerText{
+    padding-top: 12px;
+    color: white;
+}
+
+span#heart {
+    color: pink;
+}
+
+a#website {
+    text-decoration: none;
+    color: white;
+}
+
+a#website:hover {
+    color: rgba(255,255,255,0.8)
+}
