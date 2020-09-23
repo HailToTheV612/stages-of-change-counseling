@@ -45,6 +45,10 @@ section {
     padding: 40px 0 20px 0;
 }
 
+#services {
+    background-color: rgba(177, 155, 217, 0.1);
+}
+
 /*Bullet points*/
 .s-link{
     list-style-type: none;
