@@ -30,22 +30,37 @@ section {
 .main-text {
     font-size: 1.1rem;
     text-align: center;
-    padding-top: ;
+    padding-top: 50px;
+}
+
+.header{
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 40px 0 20px 0;
 }
 
 /*Bullet points*/
 .s-link{
-    /*display: inline;*/
     list-style-type: none;
     font-size: 2.2rem;
 }
 
 .s-link .s-span {
-    font-size: 16px;
+    font-size: 1.1rem;
 }
 
 #services-list .s-link:before{
     content: "\2022";
     vertical-align: middle;
     padding-right: 10px;
+}
+
+#contact{
+    background-color: rgba(177, 155, 217, 0.1);
+}
+
+.contact-items {
+    font-size: 1.1rem;
+    text-align: center;
 }
