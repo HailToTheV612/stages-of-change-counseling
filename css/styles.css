@@ -17,7 +17,7 @@
 }
 
 section {
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 }
 
 #cta {
@@ -28,7 +28,7 @@ section {
 }
 
 .main-text {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     text-align: center;
     padding-top: 50px;
 }
@@ -47,7 +47,7 @@ section {
 }
 
 .s-link .s-span {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 #services-list .s-link:before{
@@ -61,6 +61,24 @@ section {
 }
 
 .contact-items {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
     text-align: center;
+    text-transform: uppercase;
+}
+
+.contact-text{
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: none;
+}
+
+
+#phone, #mailto{
+    text-decoration: none;
+    color: #B19BD9;
+}
+
+#phone:hover, #mailto:hover {
+    color: rgba(177, 155, 217, 0.6);
 }
