@@ -6,6 +6,33 @@
    color: #B19BD9; 
 }
 
+#navbar {
+    background: #B19BD9;
+    text-transform: uppercase;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+    padding-right: 15px;
+}
+
+section {
+    padding-bottom: 100px;
+}
+
+#cta {
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.main-text {
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: ;
+}
+
 /*Bullet points*/
 .s-link{
     /*display: inline;*/
@@ -20,5 +47,5 @@
 #services-list .s-link:before{
     content: "\2022";
     vertical-align: middle;
-    padding-right: 5px;
+    padding-right: 10px;
 }
