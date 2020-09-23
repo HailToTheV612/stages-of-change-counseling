@@ -114,3 +114,21 @@ a#website {
 a#website:hover {
     color: rgba(255,255,255,0.8)
 }
+
+@media only screen and (max-width: 1200px) {
+    #dogs {
+        padding-top: 40px;
+    }
+
+    section {
+        padding-bottom: 30px;
+    }
+
+    .main-text {
+        padding-top: 25px;
+    }
+
+    .contact-items {
+        padding-bottom: 20px;
+    }
+}
