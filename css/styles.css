@@ -4,6 +4,7 @@
    box-sizing: border-box;
    font-family: 'Cormorant Garamond', serif;
    color: #B19BD9; 
+   overflow-x: hidden;
 }
 
 #navbar {
@@ -69,13 +70,13 @@ section {
     background-color: rgba(177, 155, 217, 0.1);
 }
 
-h5{
-    font-weight: 700;
-}
-
 .contact-items {
     text-align: center;
     text-transform: uppercase;
+}
+
+h5{
+    font-weight: 700;
 }
 
 .contact-text{
@@ -92,6 +93,10 @@ h5{
 
 #phone:hover, #mailto:hover {
     color: rgba(177, 155, 217, 0.6);
+}
+
+#mailto {
+    overflow-wrap: break-word;
 }
 
 footer{
@@ -133,4 +138,11 @@ a#website:hover {
     .contact-items {
         padding-bottom: 20px;
     }
+}
+
+@media only screen and (max-width: 767px) {
+
+    #services-list {
+        margin: 0;
+
 }
