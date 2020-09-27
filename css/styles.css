@@ -69,9 +69,11 @@ section {
     background-color: rgba(177, 155, 217, 0.1);
 }
 
-.contact-items {
-    font-size: 1.2rem;
+h5{
     font-weight: 700;
+}
+
+.contact-items {
     text-align: center;
     text-transform: uppercase;
 }
