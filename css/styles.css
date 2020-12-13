@@ -88,12 +88,12 @@ h5 {
 #phone,
 #mailto {
   text-decoration: none;
-  color: #b19bd9;
+  color: #8d7cad;
 }
 
 #phone:hover,
 #mailto:hover {
-  color: rgba(177, 155, 217, 0.6);
+  color: rgba(177, 155, 217, 0.8);
 }
 
 #mailto {
