@@ -71,15 +71,18 @@ section {
 }
 
 #headerContact {
+  font-size: 2rem;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
+  padding-top: 30px;
+  margin-bottom: 0 !important;
 }
 
 #name {
   text-align: center;
   font-size: 1.5rem;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 }
 
 .contact-items {
