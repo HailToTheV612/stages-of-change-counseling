@@ -160,4 +160,19 @@ a#website:hover {
   #services-list {
     margin: 0;
   }
+  img.img-fluid {
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  img.img-fluid {
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 411px) {
+  img.img-fluid {
+    margin-top: 95px;
+  }
 }
